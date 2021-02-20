@@ -1,0 +1,15 @@
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+.error {
+    background-color: rgba(255, 99, 99, 0.75);
+    color: white; margin: 15px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 50px;
+}
