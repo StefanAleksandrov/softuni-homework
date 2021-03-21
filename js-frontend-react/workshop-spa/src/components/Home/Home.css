@@ -1,0 +1,12 @@
+
+.basic {
+    background: linear-gradient(rgba(250, 248, 248, 0.2), rgba(25, 167, 173, 0.2)), url(../../img/We-need-to-talk-about-pets.jpg) no-repeat center;
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#site-content>section.basic {
+    text-align: center;
+}
