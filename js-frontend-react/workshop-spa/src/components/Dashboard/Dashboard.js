@@ -18,7 +18,7 @@ export default function Dashboard() {
                 <li className="otherPet">
                     <h3>Name: Gosho</h3>
                     <p>Category: Cat</p>
-                    <p className="img"><img src="https://pics.clipartpng.com/Cat_PNG_Clip_Art-2580.png" /></p>
+                    <p className="img"><img src="https://pics.clipartpng.com/Cat_PNG_Clip_Art-2580.png" alt="cat" /></p>
                     <p className="description">This is not my cat Gosho</p>
                     <div className="pet-info">
                         <NavLink to="#"><button className="button"><i className="fas fa-heart"></i> Pet</button></NavLink>
@@ -29,7 +29,7 @@ export default function Dashboard() {
                 <li className="otherPet">
                     <h3>Name: Gosho</h3>
                     <p>Category: Cat</p>
-                    <p className="img"><img src="https://pics.clipartpng.com/Cat_PNG_Clip_Art-2580.png" /></p>
+                    <p className="img"><img src="https://pics.clipartpng.com/Cat_PNG_Clip_Art-2580.png" alt="cat" /></p>
                     <p className="description">This is not my cat Gosho</p>
                     <div className="pet-info">
                         <NavLink to="#"><button className="button"><i className="fas fa-heart"></i> Pet</button></NavLink>
@@ -41,7 +41,7 @@ export default function Dashboard() {
                 <li className="otherPet">
                     <h3>Name: Kiro</h3>
                     <p>Category: Dog</p>
-                    <p className="img"><img src="http://www.stickpng.com/assets/images/580b57fbd9996e24bc43bbde.png" />
+                    <p className="img"><img src="http://www.stickpng.com/assets/images/580b57fbd9996e24bc43bbde.png" alt="dog" />
                     </p>
                     <p className="description">This is my dog Kiro</p>
                     <div className="pet-info">
