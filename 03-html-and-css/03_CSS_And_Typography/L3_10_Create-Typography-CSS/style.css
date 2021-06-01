@@ -1,0 +1,38 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+thead {
+    background: rgb(221,221,221);
+}
+
+tbody tr:nth-of-type(odd) {
+    background: rgb(240,240,240);
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 3px solid rgb(221,221,221);
+}
+
+blockquote {
+    border-left: 1px solid rgb(221,221,221);
+    font-style: italic;
+    padding-left: 20px;
+}
+
+blockquote figcaption {
+    text-align: right;
+}
