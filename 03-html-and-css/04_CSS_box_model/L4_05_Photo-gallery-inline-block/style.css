@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+ul {
+    list-style: none;
+    width: 75%;
+    margin: 50px auto;
+}
+
+ul > li {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+    width: 33%;
+}
+
+ul > li > img {
+    border: 0.4rem solid black;
+    width: 100%;
+    object-fit: cover;
+}
