@@ -1,0 +1,26 @@
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    padding: 25px;
+}
+
+article img {
+    width: 60%;
+}
+
+aside {
+    display: inline-block;
+    width: 35%;
+}
