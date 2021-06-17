@@ -1,0 +1,94 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 0 20%;
+    background: rgb(238, 238, 238);
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+header {
+    flex-basis: 100%;
+}
+
+main {
+    flex-basis: 70%;
+}
+
+aside {
+    flex-basis: 20%;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+img {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.column-6 {
+    display: inline-block;
+    width: 47%;
+    margin: 0;
+    vertical-align: top;
+}
+
+blockquote {
+    float: right;
+    font-family: Georgia, serif;
+}
+
+.text-left {
+    border-right: 1px solid grey;
+    padding-right: 30px;
+}
+
+.cite-right {
+    padding-left: 30px;
+}
+
+.cite-right cite {
+    display: block;
+    text-align: right;
+    margin-top: 30px;
+}
+
+aside li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
