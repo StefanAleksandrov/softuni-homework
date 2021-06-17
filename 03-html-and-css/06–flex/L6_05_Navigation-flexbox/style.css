@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 25px 100px;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    padding-bottom: 3px;
+}
+
+header nav ul li a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(0, 153, 0);
+}
