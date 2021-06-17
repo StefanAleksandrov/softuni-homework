@@ -1,0 +1,58 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+h2 {
+    padding: 2% 12.5% 0;
+}
+
+.cards-layout {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75%;
+    max-height: 2800px;
+    gap: 50px;
+    margin: auto;
+}
+
+.flex {
+    justify-content: stretch;
+}
+
+.masonry {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    box-shadow: 0 0 3px 3px lightgray;
+}
+
+.card header img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.card main {
+    padding: 0 20px;
+}
+
+.card footer {
+    border-top: 1px solid gray;
+}
+
+.card footer p {
+    padding: 20px;
+}
