@@ -1,0 +1,83 @@
+body {
+    background: #EEEEEE;
+    padding: 2rem;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    display: none;
+}
+
+tr td {
+    display: block;
+    border: 1px solid black;
+    padding: 0.25rem;
+}
+
+tr:nth-of-type(1) {
+    background: #F1F1F1;
+}
+
+tr:nth-of-type(2) {
+    background: #fff;
+}
+
+tr td:nth-of-type(1)::before {
+    content: 'First Nam';
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+tr td:nth-of-type(2)::before {
+    content: 'Last Name';
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+tr td:nth-of-type(3)::before {
+    content: 'Job Title';
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    thead {
+        display: table-header-group;
+    }
+
+    tr th {
+        background: #333333;
+        color: white;
+        text-align: left;
+    }
+
+    tr td {
+        display: table-cell;
+        border: 0;
+        text-align: left;
+    }
+
+    tr th,
+    tr td {
+        padding: 0.3rem 1rem;
+        border: 1px solid #e6e6e6;
+        font-weight: bold;
+    }
+
+    tr td:nth-of-type(1)::before,
+    tr td:nth-of-type(2)::before,
+    tr td:nth-of-type(3)::before {
+        content: '';
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    tr th,
+    tr td {
+        padding: 0.75rem 1.5rem;
+    }
+}
