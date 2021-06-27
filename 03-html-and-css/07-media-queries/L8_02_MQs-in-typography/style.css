@@ -1,0 +1,120 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 0 20%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+img {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.column-6 {
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+blockquote.column-6 {
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+    vertical-align: top;
+}
+
+.text-left {
+    border-right: 1px solid grey;
+    padding-right: 30px;
+}
+
+.cite-right {
+    padding-left: 30px;
+}
+
+.cite-right cite {
+    display: block;
+    text-align: right;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    html {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    html {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .column-6 {
+        width: 100%;
+        border: none;
+        padding-right: 0;
+    }
+
+    blockquote.column-6 {
+        width: calc(100% - 25px);
+        margin-top: 15px;
+        border-left: 1px solid grey;
+        margin-left: 25px;
+    }
+
+    img.float-left,
+    img.float-right {
+        display: block;
+        float: none;
+        border: 1px solid black;
+        padding: 5px;
+        margin: 0 10px;
+    }
+}
