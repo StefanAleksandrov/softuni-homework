@@ -1,0 +1,48 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    margin: 0;
+    padding: 5rem;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    width: 25%;
+    box-shadow: 0 0 0.5rem 0.5rem rgb(200, 200, 200);
+}
+
+.card .card-img img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.card .card-body {
+    padding: 0.5rem 1rem;
+}
+
+.card-btn {
+    background: rgb(0, 153, 0);
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
