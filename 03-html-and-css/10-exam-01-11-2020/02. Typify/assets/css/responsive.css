@@ -1,0 +1,81 @@
+@media screen and (max-width: 600px) {
+    .banner {
+        padding: 3em 0 0.75em;
+    }
+
+    .banner h2 {
+        padding: 1em 0.5em;
+        font-size: 2em;
+        width: 90%;
+        border-width: 4px 2px;
+    }
+
+    .banner p {
+        padding: 0 0.25em;
+    }
+
+    ul.actions li {
+        width: 90%;
+    }
+
+    .banner .button.special {
+        width: 100%;
+    }
+
+    .wrapper {
+        padding: 2em 0 1em;
+    }
+
+    .wrapper > .inner {
+        width: 100%;
+    }
+
+    .wrapper > .inner.narrow {
+        width: 100%;
+    }
+
+    .wrapper.style2 {
+        padding: 2em 0 0.5em;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .grid-form {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .grid-form .form-control {
+        width: 90%;
+        margin: 0 auto 2em;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 90%;
+    }
+
+    .wrapper.style2 input[type="submit"] {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 2em 0 1em;
+    }
+
+    .footer:before {
+        height: 1px;
+        left: 10%;
+        width: 80%;
+    }
+
+    .footer .copyright {
+        margin: 0 0 1em;
+    }
+}
