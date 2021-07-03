@@ -1,0 +1,26 @@
+/* TODO: Add the responsive styles here */
+
+@media screen and (max-width: 600px) {
+    .w3-hide-small,
+    article.w3-padding-large:first-of-type img.w3-round.w3-image.w3-opacity-min {
+        display: none;
+    }
+
+    .w3-bar .w3-bar-item {
+        font-size: 20px;
+    }
+
+    .w3-col.m6,
+    .w3-col.l6 {
+        width: 100%;
+    }
+    
+    article.w3-padding-large h1,
+    article.w3-padding-large h4 {
+        margin: 22px 0;
+    }
+
+    p.w3-text-blue-grey.w3-large {
+        font-size: 20px;
+    }
+}

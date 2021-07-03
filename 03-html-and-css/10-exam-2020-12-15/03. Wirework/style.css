@@ -1,0 +1,235 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+/* General styles */
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2C383B;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /* background: url(./screenshot.png); */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Header navigation */
+nav.main-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem 3.65rem 1.2rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container .logo {
+    font-size: 58px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 3.7rem 0 0;
+    letter-spacing: -2px;
+    position: relative;
+}
+
+.logo-container .logo::after {
+    content: '';
+    width: 1px;
+    height: 75%;
+    background: #535353;
+    position: absolute;
+    right: -2rem;
+    top: 12.5%;
+}
+
+.logo-container .text {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin: 0 0 0.75rem;
+    color: #535353;
+    align-self: flex-end;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav-list .nav-list-item {
+    padding: 2rem 3.6rem;
+    background: #ECECEC;
+    margin: 0.1rem;
+}
+
+.nav-list .nav-list-item.active {
+    background: #E24E2A;
+}
+
+.nav-list .nav-list-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.nav-list .nav-list-item.active a {
+    color: #fff;
+}
+
+/* Main about us */
+main .about-us {
+    position: relative;
+}
+
+main .about-us .img-container {
+    overflow: hidden;
+}
+
+main .about-us img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: -19rem;
+}
+
+main .about-us .info {
+    background: #E24E2A;
+    color: #dadada;
+    font-size: 21px;
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 5rem 15rem 7rem;
+}
+
+main .about-us .info span {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Main benefits */
+main .benefits {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 3rem;
+    background: #383838;
+}
+
+main .benefits .benefit {
+    flex-basis: 25%;
+    text-align: center;
+    margin: 1rem;
+}
+
+main .benefits .benefit .icon {
+    font-size: 4rem;
+    color: #fff;
+    padding: 2.5rem;
+    margin-top: 2rem;
+    background: #E24E2A;
+}
+
+main .benefits .benefit:first-of-type .icon {
+    font-size: 4.5rem;
+}
+
+main .benefits .benefit .benefit-heading {
+    color: #fff;
+    margin: 0.5rem 0 1.9rem;
+    font-size: 1.75rem;
+}
+
+main .benefits .benefit:first-of-type .benefit-heading {
+    margin: 1.2rem 0;
+}
+
+main .benefits .benefit .benefit-text {
+    color: #5f5f5f;
+    padding: 3rem 0;
+    font-size: 1.25rem;
+    line-height: 1.7;
+    border-top: 1px solid #5f5f5f;
+}
+
+/* Main contacts */
+main .contacts {
+    text-align: center;
+    padding: 9rem;
+}
+
+main .contacts .contacts-heading {
+    font-size: 3.1rem;
+    margin: 0;
+    color: #535353;
+    line-height: 1.2;
+}
+
+main .contacts .contacts-text {
+    font-size: 1.63rem;
+    margin: 0;
+    color: #a9a9a9;
+}
+
+main .contacts .contacts-btn {
+    font-size: 1.63rem;
+    margin: 2.5rem;
+    padding: 1.5rem 5rem;
+    color: #fff;
+    background-color: #1B9772;
+    border: none;
+    cursor: pointer;
+}
+
+/* Main info */
+main article.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 3rem 6rem;
+    background: #383838;
+}
+
+main .info .info-card {
+    flex-basis: 25%;
+    text-align: center;
+    margin: 1rem;
+}
+
+main .info .info-card .info-heading {
+    color: #fff;
+    margin: 0.5rem 0 1.9rem;
+    font-size: 1.75rem;
+}
+
+main .info .info-card .info-text {
+    color: #5f5f5f;
+    padding: 3rem 0;
+    font-size: 1.25rem;
+    line-height: 1.7;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 5rem;
+    background: #1B9772;
+}
+
+footer p {
+    color: #a9a9a9;
+}
+
+footer p span {
+    color: #ECECEC;
+}
