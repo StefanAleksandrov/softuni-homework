@@ -1,0 +1,14 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
