@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    /* background: url(./screenshot.png);
+    background-repeat: no-repeat; */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header style */
+header .header-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.35rem 21rem;
+    align-items: flex-start;
+}
+
+header .logo-wrapper {
+    width: 13rem;
+}
+
+header .logo-wrapper img {
+    width: 100%;
+}
+
+header .info-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-basis: 64%;
+    margin: 0;
+}
+
+header .info-list-item:nth-of-type(1),
+header .info-list-item:nth-of-type(2) {
+    border-right: 1px solid rgb(225, 225, 225);
+    padding-right: 1.2rem;
+}
+
+header .info-list-item:nth-of-type(4) {
+    flex-basis: 20%;
+}
+
+header .info-list .info-list-item-heading {
+    font-size: 1rem;
+    color: rgb(150, 150, 150);
+    margin: 0;
+}
+
+header .info-list .info-list-item-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+header .info-list .info-list-item-text a {
+    text-decoration: none;
+    color: #000;
+}
+
+header .info-list-item .info-btn {
+    width: 100%;
+    padding: 0.9rem 0;
+    margin-left: 1rem;
+    background: #FFB600;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Header navigation style */
+header .main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 21rem;
+    background: #23282D;
+}
+
+header .main-navigation .main-navigation-list {
+    flex-basis: 64%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+header .main-navigation-list-item {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+}
+
+header .main-navigation-list-item.active {
+    text-transform: uppercase;
+    color: #FFB600;
+}
+
+header .main-navigation-list-item.dropdown::after {
+    content: '\f107';
+    font-family: "Font Awesome 5 Free";
+    margin-left: 5px;
+}
+
+header .search {
+    cursor: pointer;
+    color: rgb(125, 125, 125);
+}
+
+/* Header banner style */
+header .banner {
+    text-align: center;
+    color: #FFF;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(./images/banner1.jpg);
+    padding: 7rem 0 8.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .banner .banner-heading {
+    font-size: 4.1rem;
+    text-transform: uppercase;
+    margin: 0 0 0.3rem;
+    line-height: 1;
+}
+
+header .banner-navigation-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header .banner-navigation-list .banner-navigation-list-item {
+    margin: 0 0.6rem;
+}
+
+header .banner-navigation-list .banner-navigation-list-item:hover a {
+    text-decoration: underline;
+}
+
+header .banner-navigation-list .banner-navigation-list-item a {
+    text-decoration: none;
+    margin: 0;
+    color: #FFF;
+    font-size: 1rem;
+}
+
+/* Main building style */
+main .building {
+    padding: 4.8rem 21rem 6rem;
+    display: flex;
+}
+
+main .building-img-container {
+    width: 67%;
+}
+
+main .building-img-container img {
+    width: 100%;
+}
+
+main .building-info {
+    width: 33%;
+    padding: 0 0 0 2rem;
+}
+
+main .building-info-heading {
+    color: #212121;
+    font-size: 1.6rem;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1.25;
+}
+
+main .building-info-text {
+    font-size: 0.98rem;
+    color: #585858;
+    margin-top: 1.75rem;
+    line-height: 1.7;
+}
+
+main .building-info-subheading {
+    color: #212121;
+    font-size: 1rem;
+    line-height: 1;
+    margin-top: 1.5rem;
+}
+
+main .building-info-btn {
+    display: inline-block;
+    padding: 0.75rem 1.35rem;
+    margin-top: 0.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    background: #FFB600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Footer info style */
+footer .info {
+    background: #030303;
+    padding: 4.8rem 21rem;
+    display: flex;
+    color: #FFF;
+}
+
+footer > section > article:not(:first-of-type) {
+    margin-left: 4.45rem;
+}
+
+footer .info > article {
+    max-width: 33.33333%;
+}
+
+footer .info .about-us-heading,
+footer .info .working-hours-heading,
+footer .info .services-heading {
+    text-indent: 1.15rem;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    margin-top: 0.9rem;
+    text-transform: uppercase;
+    border-left: 1px solid #FFB600;
+}
+
+footer .info .about-us-img-container {
+    width: 55%;
+    margin: 2rem 0 1.5rem;
+}
+
+footer .info .about-us-img-container img {
+    width: 100%;
+}
+
+footer .info .about-us-text ,
+footer .working-hours .working-hours-text {
+    line-height: 1.9;
+    margin-bottom: 1.4rem;
+}
+
+footer .info .social a {
+    font-size: 1.1rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+footer .info .social a:not(:first-of-type) i {
+    margin-left: 1.8rem;
+}
+
+footer .working-hours {
+    width: 31%;
+    margin-right: 1.8rem;
+}
+
+footer .working-hours .working-hours-text {
+    margin-top: 2.1rem;
+}
+
+footer .working-hours .schedule {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .working-hours .schedule > p {
+    margin: 0.2rem 0;
+}
+
+footer .working-hours .schedule .grow {
+    flex-grow: 1;
+    flex-basis: 60%;
+}
+
+footer .services .services-list {
+    list-style: none;
+    margin: 2.9rem 0 0;
+    padding: 0;
+}
+
+footer .services .services-list .service  {
+    margin: 1.5rem 0;
+}
+
+footer .services .services-list .service a {
+    color: #585858;
+    text-decoration: none;
+} 
+
+footer .services .services-list .service a i {
+    margin-right: 1rem;
+} 
+
+/* Footer copyright style */
+footer .copyright {
+    background: #FFB600;
+    padding: 0.5rem 21rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .copyright .copyright-text {
+    color: #000;
+    font-size: 0.75rem;
+}
+
+footer .copyright .copyright-list {
+    list-style: none;
+    flex-basis: 28%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .copyright .copyright-list li a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: #000;
+}
